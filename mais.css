@@ -1,0 +1,155 @@
+body {
+	background: #B6DBD3;
+}
+
+.container {
+	background: #DAEDE9;
+	max-width: 940px;
+	margin: 0 auto;
+
+}
+
+#wrapper {
+	padding-right: 10px;
+	padding-left: 30px;
+	box-sizing: border-box;	
+}
+
+p {
+	color: #4C615C;
+}
+
+header {
+	padding-top: 20px;
+	background-color: #A7C7BF;
+}
+
+header h1 {
+	color: #367063;
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	font-size: 185%;
+	margin: 10px 0 0 50px;
+}
+
+header p {
+	color: #777;
+	margin: 5px 0 0 50px;
+}
+
+.site-nav {
+	height: 38px;
+	margin-top: 20px;
+	background-color: #789C93;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 7px;
+
+}
+
+.site-nav a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #789C93;
+	padding: 10px 20px;
+}
+
+.site-nav a:hover {
+	background-color: #61857C;
+}
+
+section[id] {
+	font-family: Georgia, serif;
+	line-height: 1.4;
+	margin-bottom: 1em;
+}
+
+section:only-child {
+	font-family: Verdana;
+}
+
+
+.example > section {
+	width: 30%;
+	float: left;
+	margin-right: 3%;
+	box-sizing: border-box;
+}
+
+fieldset {
+	width: 40%;
+	background: #CAD9D5;
+	border: 1px solid #333;
+}
+
+input[type="text"],input[type="email"] {
+	 width: 24em;
+	 margin: 10px 10px;
+}
+
+input[type="text"]:focus,input[type="email"]:focus {
+	background: #F0D7B6;
+}
+
+input[type="checkbox"]:checked + label {
+	color: red;
+}
+
+input[type="button"]:active {
+	position: relative;
+	top:1px;
+}
+
+.art-fonts {
+	font-family: 'Lobster', cursive;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.art-fonts h2 {
+ 	color: #367063;
+	margin-bottom: 0;
+}
+
+.s-font-1 {
+	width: 60%;
+	float: left;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.s-font-2 {
+	width: 40%;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;	
+}
+
+footer {
+	border-top: 2px solid #B6DBD3;
+	font-size: 85%;
+	text-align: center;
+	color: #777;
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
