@@ -77,12 +77,15 @@ section:only-child {
 	font-family: Verdana;
 }
 
-
 .example > section {
 	width: 30%;
 	float: left;
 	margin-right: 3%;
 	box-sizing: border-box;
+}
+
+.aside-form {
+	padding: 35px;
 }
 
 fieldset {
@@ -135,15 +138,48 @@ input[type="button"]:active {
 	box-sizing: border-box;	
 }
 
+.pos {
+	margin-bottom: 45px;
+	font-family: 'Lobster', cursive;
+	font-size: 110%;
+}
+
+.pos h2,.pos h3 {
+	color: #367063;
+}
+
+.mint1 {
+	position: relative;
+	width: 425px;
+	height: 282px;
+}
+
+.border-1 {
+	width: 425px;
+	height: 282px;
+	border: 5px solid #fff;
+	position: absolute;
+	bottom: -26px;
+	left: 20px;
+}
+
+.description {
+	position: absolute;
+	width: 50%;
+	height: 280px;
+	bottom: 0;
+	left: 120%;
+	overflow: scroll;
+}
+
 footer {
-	border-top: 2px solid #B6DBD3;
 	font-size: 85%;
 	text-align: center;
 	color: #777;
-	background-color: #A7C7BF;
 	margin-top: 20px;
 	padding-top: 25px;
 	padding-bottom: 20px;
+	background-color: #A7C7BF;
 }
 
 .group:before,
